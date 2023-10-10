@@ -1,0 +1,22 @@
+{
+  "name": "document-qa-service",
+  "version": "1.0.0",
+  "description": "a document qa service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [
+    "QA",
+    "LLM",
+    "AI"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "langchain": "^0.0.164",
+    "pdf-parse": "^1.1.1"
+  }
+}
